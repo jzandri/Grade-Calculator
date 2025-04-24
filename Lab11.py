@@ -117,9 +117,9 @@ def main():
         good = None
         for i in assn:
             if i.name.strip() == assignment.strip():
-                print(f"Min: {i.get_min()}")
-                print(f"Avg: {i.get_avg():.0f}")
-                print(f"Max: {i.get_max()}")
+                print(f"Min: {i.get_min()}%")
+                print(f"Avg: {i.get_avg():.0f}%")
+                print(f"Max: {i.get_max()}%")
                 good = 1
         if good is None:
             print("Assignment not found")
